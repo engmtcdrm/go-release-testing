@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/engmtcdrm/go-release-testing/app"
+)
 
 func main() {
-	fmt.Println("WELCOME TO BUILDBOI3000 PREPARE TO BE BUILT")
+	fmt.Printf("WELCOME TO %s PREPARE TO BE BUILT\n", app.Name)
+	fmt.Printf("The current version is %s\n", app.Version)
 }
