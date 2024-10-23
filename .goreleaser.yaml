@@ -39,8 +39,7 @@ archives:
     # format_overrides:
     #   - goos: windows
     #     format: zip
-    wrap_in_directory: true
-    wrap_in_directory_template: "{{ .ProjectName }}"
+    wrap_in_directory: "{{ .ProjectName }}"
 
 changelog:
   sort: asc
