@@ -4,12 +4,11 @@
 name: Build and Test
 
 on:
-  push:
-    tags-ignore:
-      - "v*" # ignore tags
   pull_request:
-    branches:
-      - "**" # all branches
+  push:
+    # run only against tags
+    tags-ignore:
+      - "*"
 
 jobs:
 
