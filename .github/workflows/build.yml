@@ -6,7 +6,7 @@ name: Build and Test
 on:
   push:
     tags-ignore:
-      - "*" # ignore tags
+      - "**" # ignore tags
   pull_request:
     branches:
       - "**" # all branches
