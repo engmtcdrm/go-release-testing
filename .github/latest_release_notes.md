@@ -1,3 +1,3 @@
 ### Added
 
-- More Changes!
+- Even more amazing changes!
